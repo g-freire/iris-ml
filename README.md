@@ -1,10 +1,9 @@
-##### *Link da apresentacao: https://g-freire.github.io/git-hub-pages/pt.html#*
-
 ![Screenshot](pyrobot.png)
 
 ###### Aprendizado de maquina usando linguagem Python 2.7.12 e Iris Data-set 
 ###### Bibliotecas usadas: scipy 0.19.0, numpy 1.12.1, matplotlib 1.5.3, pandas 0.18.1, sklearn 0.18.1 
 ###### Modelos: logistic regression , LDA, KNN, decision tree classifier, gaussian naive bayes, SVM 
+##### *Link da apresentacao: https://g-freire.github.io/git-hub-pages/pt.html#*
 #
 #
 ## Steps to run:
