@@ -2,9 +2,9 @@
 
 ![Screenshot](pyrobot.png)
 
-#### Aprendizado de maquina usando linguagem Python 2.7.12 e Iris Data-set 
-#### Bibliotecas usadas: scipy 0.19.0, numpy 1.12.1, matplotlib 1.5.3, pandas 0.18.1, sklearn 0.18.1 
-#### modelos: logistic regression , LDA, KNN, decision tree classifier, gaussian naive bayes, SVM 
+###### Aprendizado de maquina usando linguagem Python 2.7.12 e Iris Data-set 
+###### Bibliotecas usadas: scipy 0.19.0, numpy 1.12.1, matplotlib 1.5.3, pandas 0.18.1, sklearn 0.18.1 
+###### modelos: logistic regression , LDA, KNN, decision tree classifier, gaussian naive bayes, SVM 
 #
 #
 ## Steps to run:
@@ -12,7 +12,7 @@
 ```diff
 + $ docker-compose up -d
  ```
- ##### plots will be linked to /var/lib/docker/volumes/pythonml_benchmarks on the host or VM
+ ##### Plot outputs will be mounted at  */var/lib/docker/volumes/pythonml_benchmarks* on the host/VM path
 
 ### Using (Ana)Conda + Spyder IDE:  
 
