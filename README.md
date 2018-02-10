@@ -8,10 +8,11 @@
 #
 ## Steps to run:
 ### Using Docker:
+#### Build images and run the containers
 ```diff
 + $ docker-compose up -d
  ```
- ##### Plot outputs will be mounted at  */var/lib/docker/volumes/pythonml_benchmarks* on the host/VM path
+ ##### Plots outputs will be mounted at  */var/lib/docker/volumes/pythonml_benchmarks* on the host/VM path
 
 ### Using (Ana)Conda + Spyder IDE:  
 
