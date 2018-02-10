@@ -1,0 +1,24 @@
+version: '3'
+services:
+  fs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: py-ml-i
+    container_name: py-ml-c
+    volumes:
+      - benchmarks:/code/plots
+    networks:
+        - backend
+
+volumes:
+  benchmarks:
+
+networks:
+  backend:
+
+  
+  
+  
+  
+      

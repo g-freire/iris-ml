@@ -54,14 +54,14 @@ print(dataset.groupby('class').size())
 
 # Plotagem  box e whisker 
 dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
-plt.show()
+plt.savefig('plots/box-whisker.png')
 # Plotagem histogramas  -- observar distribuicoes Gaussianas
 dataset.hist()
-plt.show()
+plt.savefig('plots/histogram.png')
 
 # scatter plot matrix -- note o agrupamento de alguns atributos pares, sugere alta correlacao e relacao previsivel
 scatter_matrix(dataset)
-plt.show()
+plt.savefig('plots/scatter-matrix.png')
 
 # Criacao de Modelos 
 
@@ -102,7 +102,8 @@ fig.suptitle('Comparacao Algoritmos')
 ax = fig.add_subplot(111)
 plt.boxplot(results)
 ax.set_xticklabels(names)
-plt.show()
+# plt.show()
+plt.savefig('plots/benchmark.png')
 
 # 5) Fazendo previsoes no dataset de validacao
 knn = KNeighborsClassifier()
