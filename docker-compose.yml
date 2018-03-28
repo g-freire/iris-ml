@@ -9,7 +9,7 @@ services:
     volumes:
       - benchmarks:/code/plots
     networks:
-        - backend
+        - backend2
 
 volumes:
   benchmarks:
