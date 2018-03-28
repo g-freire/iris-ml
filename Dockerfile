@@ -7,5 +7,5 @@ RUN pip install -r requirements.txt
 ADD . /code/
 ENTRYPOINT ["python","iris.py"]
 
-LABEL maintainer="https://github.com/g-freire"
+LABEL maintainer="HAL9000"
 
