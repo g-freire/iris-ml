@@ -18,3 +18,4 @@
 ##### Install the required dependencies using Anaconda and run the script using Spyder IDE 
 ##### Output should look like this :
 ![Screenshot](py.png)
+![Screenshot](fisheriris.png)
