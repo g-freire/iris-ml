@@ -5,7 +5,7 @@
 ###### Classificadores testados: logistic regression , LDA, KNN, decision tree classifier, gaussian naive bayes, SVM 
 ##### *Link da apresentacao: https://g-freire.github.io/git-hub-pages/pt.html#*
 #
-#☁️☁️☁️
+#
 ## Steps to run:
 ### Using Docker:
 #### Build images and run the containers 
