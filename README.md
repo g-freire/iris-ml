@@ -1,5 +1,5 @@
 # [![Docker Build](https://img.shields.io/docker/build/pierrezemb/gostatic.svg?style=plastic)](https://hub.docker.com/r/gfreire) [![Build Status](https://travis-ci.org/PierreZ/goStatic.svg?branch=master)](https://travis-ci.org) 
-# ![Screenshot](img/pyrobot.png)
+# ![Screenshot](git_img/pyrobot.png)
 
 ### Machine Learning using the Python ecosystem
 ##### Classifiers: Logistic Regression , LDA, KNN, Decision Trees, Gaussian Naive Bayes, SVM 
@@ -25,5 +25,5 @@
 
 
 ##### Output should look like this :
-![Screenshot](img/py.png)
-![Screenshot](img/fisheriris.png)
+![Screenshot](git_img/py.png)
+![Screenshot](git_img/fisheriris.png)
