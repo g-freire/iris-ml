@@ -1,6 +1,6 @@
 numpy
 pandas==0.17.1
-scipy==0.17.0
+scipy==1.10.0
 sklearn
 seaborn 
 matplotlib==1.5.1
